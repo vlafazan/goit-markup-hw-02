@@ -92,7 +92,9 @@ body {
 }
 
 .text-btn {
+    cursor: pointer;
     font-family: inherit;
+    
 }
 
 /* features  */
