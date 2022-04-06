@@ -19,8 +19,20 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
-
 }
+
+/* сброс */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* header */
+.header {
+  text-decoration: none;
+}
+
 /* logo */
 .logo .logo-accent {
   color: var(--accent-color);
@@ -32,12 +44,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
-/* NAV */
+/* nav */
 .site-list .site-nav:hover,
 .site-list .site-nav:focus,
 .site-list .site-nav:active {
   color: var(--accent-color);
+}
+.site-nav {
+  color: #212121;
 }
 .site-list {
   color: var(--secondary-text-color);
@@ -59,6 +73,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.site-link {
+  color: var(--primary-text-color);
 }
 
 /* HERO */
@@ -92,22 +109,20 @@ body {
 }
 
 .text-btn {
-    cursor: pointer;
-    font-family: inherit;
-    
+  cursor: pointer;
+  font-family: inherit;
 }
 
 /* features  */
 
 .features-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features-text {
@@ -136,11 +151,11 @@ body {
 }
 
 .users-text {
-    font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18
-letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .features-title,
@@ -166,9 +181,13 @@ letter-spacing: 0.03em;
 .footer-list {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer-map {
+  color: #ffffff;
+  font-style: normal;
 }
 .addres :hover,
 .addres :focus,
@@ -177,6 +196,7 @@ letter-spacing: 0.03em;
 }
 .footer-nav {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 /* HERO PORTFOLIO */
@@ -185,10 +205,10 @@ letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--secondary-text-color);
   font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .list-button-pointer .list-button-item:hover,
@@ -207,8 +227,8 @@ letter-spacing: 0.03em;
 }
 
 .img-text {
-    font-family: 'Roboto', sans-serif;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
